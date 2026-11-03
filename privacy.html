@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>社團交易備忘錄｜隱私權政策</title>
+<link rel="icon" type="image/png" href="images/icon-32.png">
+<meta name="description" content="社團交易備忘錄 Chrome 擴充功能的隱私權政策：資料存在你的瀏覽器，開發者沒有伺服器，看不到你的資料。">
+<style>
+  :root {
+    --bg: #fbfaf8;
+    --fg: #1f2328;
+    --muted: #59636e;
+    --line: #e3e1dc;
+    --brand: #0e7470;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141517;
+      --fg: #e6e6e3;
+      --muted: #a2a6ab;
+      --line: #2e3033;
+      --brand: #3fb5ad;
+      --card: #1b1c1f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.8 system-ui, -apple-system, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 72px; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 24px; margin-bottom: 8px; }
+  .app a { color: inherit; text-decoration: none; }
+  .back { margin: 0 0 20px; font-size: 14px; }
+  a { color: var(--brand); }
+  .app { color: var(--brand); font-weight: 700; font-size: 14px; letter-spacing: .04em; margin: 0 0 6px; }
+  h1 { font-size: 30px; line-height: 1.3; margin: 0 0 8px; }
+  .meta { color: var(--muted); font-size: 14px; margin: 0; }
+  .summary {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--brand);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 28px 0 8px;
+  }
+  .summary p { margin: 0; }
+  h2 { font-size: 20px; margin: 40px 0 8px; }
+  p, li { color: var(--fg); }
+  ul { padding-left: 1.3em; margin: 8px 0; }
+  li + li { margin-top: 4px; }
+  code { font-size: .9em; background: var(--card); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; font-size: 14px; }
+  td:first-child { white-space: nowrap; }
+  footer a { color: var(--muted); }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  @media (max-width: 520px) {
+    main { padding-top: 32px; }
+    h1 { font-size: 26px; }
+    /* 手機上把表格改成上下排列，避免第一欄被擠成一字一行 */
+    thead { display: none; }
+    tr, td { display: block; }
+    tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
+    td { border: 0; padding: 2px 0; }
+    td:first-child { font-weight: 700; white-space: normal; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <p class="back"><a href="index.html">← 回到產品介紹</a></p>
+  <header>
+    <p class="app"><a href="index.html">社團交易備忘錄</a></p>
+    <h1>隱私權政策</h1>
+    <p class="meta">最後更新：2026 年 11 月 2 日</p>
+  </header>
+
+  <div class="summary">
+    <p><strong>重點：</strong>你在本擴充功能中輸入的資料存在你自己的瀏覽器裡；如果你使用 Pro 的雲端同步，資料會透過你自己的 Chrome 同步（Google 帳號）在你的電腦之間同步。我們沒有伺服器，開發者不會收到、也無法讀取你的資料，不會出售或分享任何資料。</p>
+  </div>
+
+  <h2>一、本擴充功能做什麼</h2>
+  <p>「社團交易備忘錄」（以下稱「本擴充功能」）讓你替在 Facebook 社團中交易過的帳號加上個人標籤與備註，並在這些帳號之後出現在頁面上時，於名字旁顯示該標籤。</p>
+
+  <h2>二、會處理哪些資料</h2>
+  <table>
+    <thead><tr><th>資料</th><th>用途與處理方式</th></tr></thead>
+    <tbody>
+      <tr><td>你輸入的內容</td><td>你替某個帳號填寫的名稱、選擇的標籤、備註文字，以及該帳號的代碼（個人檔案網址中的數字 ID 或使用者名稱）和建立、更新時間。使用 Pro 功能時，另外包含你記錄的交易時間、你設定的提醒時間與提醒內容。只在你按下「儲存」或相關按鈕時才會記錄。</td></tr>
+      <tr><td>備註歷史與最近刪除</td><td>修改備註時保留的舊版本（最多 20 個），以及刪除後保留 30 天的資料，讓你之後可以找回。這些只存在你這台電腦，不會同步。你可以隨時在「最近刪除」中永久刪除。</td></tr>
+      <tr><td>專業版授權碼</td><td>如果你購買專業版並輸入授權碼，授權碼（內含你購買時提供的 Email）會存在本機，並存一份到你的 Chrome 同步，讓你登入同一個 Google 帳號的其他電腦自動啟用。驗證在瀏覽器中離線完成，不會傳送給開發者。付款由綠界科技等金流平台處理，本擴充功能不會接觸你的付款資訊。</td></tr>
+      <tr><td>頁面上的連結</td><td>在 facebook.com 頁面上，本擴充功能會讀取連結的網址與連結文字，用來判斷哪些是個人檔案連結，並和你已儲存的標記比對。這些資訊只在瀏覽器記憶體中即時比對，不會被儲存或傳送。</td></tr>
+    </tbody>
+  </table>
+  <p>本擴充功能不會讀取或記錄你的貼文內容、私人訊息、好友名單、瀏覽記錄、密碼或付款資訊。</p>
+
+  <h2>三、資料存放在哪裡</h2>
+  <p>資料存放在你瀏覽器的本機儲存空間（<code>chrome.storage.local</code>），只有你這台電腦上的這個瀏覽器設定檔可以存取。</p>
+  <p><strong>雲端同步（Pro，可關閉）：</strong>開啟後，你的標記、交易時間與提醒會存到 Chrome 提供的同步儲存空間（<code>chrome.storage.sync</code>），由 Google 依你在 Chrome 登入的帳號同步到你的其他電腦，並適用 Google 的隱私權政策。開發者沒有存取這些資料的管道。若你沒有登入 Chrome 或沒有開啟擴充功能同步，資料就只會留在本機。你可以在完整管理頁的「雲端同步與自動備份」中關閉同步。授權碼不受這個開關影響：啟用授權碼時一定會寫入 Chrome 同步（見上方「專業版授權碼」），和同步開關無關。</p>
+
+  <h2>四、我們不會做的事</h2>
+  <ul>
+    <li>不會把任何資料傳送到開發者的伺服器（本擴充功能沒有伺服器）；雲端同步只透過你自己的 Chrome 同步帳號</li>
+    <li>不會使用分析、追蹤或廣告工具</li>
+    <li>不會出售、出租或分享你的資料</li>
+    <li>不會把資料用於標記帳號以外的任何用途</li>
+    <li>不會公開你的標記；其他人看不到你寫了什麼</li>
+  </ul>
+
+  <h2>五、權限說明</h2>
+  <ul>
+    <li><strong>storage</strong>：把你的標記存在本機（<code>chrome.storage.local</code>），重新開啟瀏覽器後仍能顯示；Pro 的雲端同步與授權碼則使用 <code>chrome.storage.sync</code>，經由你自己在 Chrome 登入的 Google 帳號同步。</li>
+    <li><strong>contextMenus</strong>：在 Facebook 的連結上加入右鍵選單「標記這個帳號」。</li>
+    <li><strong>alarms</strong>：定時檢查提醒是否到期，以及定時進行雲端同步。</li>
+    <li><strong>notifications</strong>：提醒時間到時，在電腦上跳出通知。通知內容只在你的電腦上顯示。</li>
+    <li><strong>存取 facebook.com</strong>：在 Facebook 頁面上辨識個人檔案連結並顯示標籤。本擴充功能不會在其他網站上執行。</li>
+  </ul>
+
+  <h2>六、匯出與匯入</h2>
+  <p>你可以把資料匯出成 JSON 或 CSV 檔案，檔案會存到你自己選擇的位置。匯入時，本擴充功能只在你的瀏覽器中讀取你選擇的檔案，不會上傳。匯出的檔案由你自行保管。</p>
+
+  <h2>七、如何刪除資料</h2>
+  <ul>
+    <li>刪除單筆：在工具列彈出視窗或完整管理頁中按「刪除」。</li>
+    <li>刪除單筆後，資料會在「最近刪除」保留 30 天，可在完整管理頁中按「永久刪除」立即清除。</li>
+    <li>刪除全部：移除本擴充功能，瀏覽器會一併刪除它在本機儲存的所有資料。如果你使用過雲端同步，請先在擴充功能中刪除資料讓刪除同步出去，或在 Google 帳號的 Chrome 同步設定中清除同步資料。</li>
+  </ul>
+
+  <h2>八、兒童</h2>
+  <p>本擴充功能並非為兒童設計，也不會在知情的情況下處理兒童的資料。</p>
+
+  <h2>九、與 Facebook 的關係</h2>
+  <p>本擴充功能為獨立開發，與 Facebook 及 Meta Platforms, Inc. 無任何關聯，也非其官方產品。</p>
+
+  <h2>十、政策變更</h2>
+  <p>如果本擴充功能日後加入其他需要傳送資料的功能，我們會在推出前更新本頁並修改最後更新日期。</p>
+
+  <h2>十一、聯絡方式</h2>
+  <p>對本政策有任何問題，請來信：<a href="mailto:gooseknowhow@gmail.com"><strong>gooseknowhow@gmail.com</strong></a></p>
+
+  <footer><a href="index.html">產品介紹</a>　·　<a href="index.html#terms">購買須知與退款政策</a><br>© 2026 社團交易備忘錄</footer>
+</main>
+</body>
+</html>
