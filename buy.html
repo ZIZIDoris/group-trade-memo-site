@@ -1,0 +1,34 @@
+<!doctype html>
+<!--
+  購買 Pro 的轉址頁：擴充功能的「前往付款」會開這個網址（lib/config.ts 的 PURCHASE_URL），
+  這裡再自動轉到綠界收款連結。
+
+  綠界收款連結建立後無法修改。要換連結時，只要改這個檔案裡的綠界網址（共 3 處：
+  meta refresh、手動連結、location.replace），不用改擴充功能、也不用重新上架。
+
+  請勿從首頁或其他頁面連到這裡：購買要從擴充功能的購買須知進入（先同意購買須知才付款）。
+-->
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=https://p.ecpay.com.tw/D2AF547">
+<title>前往付款｜社團交易備忘錄</title>
+<link rel="icon" type="image/png" href="images/icon-32.png">
+<script>location.replace('https://p.ecpay.com.tw/D2AF547');</script>
+<style>
+  :root { --bg: #fbfaf8; --fg: #1f2328; --brand: #0e7470; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #141517; --fg: #e6e6e3; --brand: #3fb5ad; } }
+  body {
+    margin: 0; padding: 72px 16px; background: var(--bg); color: var(--fg); text-align: center;
+    font: 16px/1.8 system-ui, -apple-system, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  }
+  a { color: var(--brand); }
+</style>
+</head>
+<body>
+<p>正在前往綠界付款頁…</p>
+<p>如果沒有自動跳轉，請點這裡：<a href="https://p.ecpay.com.tw/D2AF547">前往綠界付款頁</a></p>
+</body>
+</html>
